@@ -1,0 +1,66 @@
+body
+{
+	font-family: 'EB Garamond', serif;
+}
+/*Uitility classes*/
+.img_responsive
+{
+	max-width: 100%;
+}
+.food_image
+{
+	background: url(spaghetti-g250fdc039_1920.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+.image_wrpper
+{
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.image_wrpper,h1
+{
+	text-align: center;
+}
+.form_style .search_style
+{
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2rem;
+  padding: .6rem;
+  outline: none;
+  border: none;
+  text-align: center;
+}
+.form_style button
+{
+	margin-right: auto;
+	margin-left: auto;
+	width: 40%;
+	background-color: #ff6600;
+	border-radius: 2rem;
+	border: none;
+	padding: .3rem;
+	margin-top: 1rem;
+}
+
+/*product section*/
+
+.product
+{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.Product_list_items
+{
+	float: left;
+	
+	width: 50%;
+}
